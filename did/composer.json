@@ -1,0 +1,20 @@
+{
+	"name" : "Todo Slim",
+	"description" : "",
+	"version" : "dev",
+	"keywords" : ["slim", "todo"],
+	"license" : "MIT",
+	"authors" : [{
+		"name"  : "Abhijeet Mohan",
+		"email" : "abhijeetshibu@gmail.com",
+		"role"  : "Developer"
+	}],
+	"require" : {
+		"php" : ">= 5.3",
+		"slim/slim" : "2.*",
+		"illuminate/database":"*",
+		"slimcontroller/slimcontroller": "dev-master",
+		"codeception/codeception": "*",
+		"predis/predis": "0.8"
+	}
+}
