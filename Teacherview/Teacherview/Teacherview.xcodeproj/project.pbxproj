@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88EF53591AA29D4000832A03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EF53581AA29D4000832A03 /* AppDelegate.swift */; };
+		88EF535C1AA29D4000832A03 /* Teacherview.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88EF535A1AA29D4000832A03 /* Teacherview.xcdatamodeld */; };
+		88EF535E1AA29D4000832A03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EF535D1AA29D4000832A03 /* ViewController.swift */; };
+		88EF53611AA29D4000832A03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EF535F1AA29D4000832A03 /* Main.storyboard */; };
+		88EF53631AA29D4000832A03 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88EF53621AA29D4000832A03 /* Images.xcassets */; };
+		88EF53661AA29D4000832A03 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88EF53641AA29D4000832A03 /* LaunchScreen.xib */; };
+		88EF53721AA29D4000832A03 /* TeacherviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EF53711AA29D4000832A03 /* TeacherviewTests.swift */; };
+		88EF53871AA29DCC00832A03 /* PNBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EF537D1AA29DCC00832A03 /* PNBar.swift */; };
+		88EF53881AA29DCC00832A03 /* PNChartLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EF537F1AA29DCC00832A03 /* PNChartLabel.swift */; };
+		88EF53891AA29DCC00832A03 /* PNLineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EF53801AA29DCC00832A03 /* PNLineChart.swift */; };
+		88EF538A1AA29DCC00832A03 /* PNLineChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EF53811AA29DCC00832A03 /* PNLineChartData.swift */; };
+		88EF538B1AA29DCC00832A03 /* PNValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EF53821AA29DCC00832A03 /* PNValue.swift */; };
+		88EF538C1AA29DCC00832A03 /* PNChartConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EF53831AA29DCC00832A03 /* PNChartConfig.swift */; };
+		88EF538D1AA29DCC00832A03 /* PNChartDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EF53841AA29DCC00832A03 /* PNChartDelegate.swift */; };
+		88EF538E1AA29DCC00832A03 /* view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EF53851AA29DCC00832A03 /* view.swift */; };
+		88EF538F1AA29DCC00832A03 /* PNBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EF53861AA29DCC00832A03 /* PNBarChart.swift */; };
+		88EF53911AA29F0F00832A03 /* APIRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EF53901AA29F0F00832A03 /* APIRequestViewController.swift */; };
+		88EF53931AA2A13200832A03 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EF53921AA2A13200832A03 /* Utilities.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88EF536C1AA29D4000832A03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88EF534B1AA29D4000832A03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88EF53521AA29D4000832A03;
+			remoteInfo = Teacherview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88EF53531AA29D4000832A03 /* Teacherview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teacherview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88EF53571AA29D4000832A03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88EF53581AA29D4000832A03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88EF535B1AA29D4000832A03 /* Teacherview.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Teacherview.xcdatamodel; sourceTree = "<group>"; };
+		88EF535D1AA29D4000832A03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88EF53601AA29D4000832A03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88EF53621AA29D4000832A03 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		88EF53651AA29D4000832A03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		88EF536B1AA29D4000832A03 /* TeacherviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeacherviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88EF53701AA29D4000832A03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88EF53711AA29D4000832A03 /* TeacherviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherviewTests.swift; sourceTree = "<group>"; };
+		88EF537D1AA29DCC00832A03 /* PNBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNBar.swift; sourceTree = "<group>"; };
+		88EF537E1AA29DCC00832A03 /* PNChartSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNChartSwift.h; sourceTree = "<group>"; };
+		88EF537F1AA29DCC00832A03 /* PNChartLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNChartLabel.swift; sourceTree = "<group>"; };
+		88EF53801AA29DCC00832A03 /* PNLineChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNLineChart.swift; sourceTree = "<group>"; };
+		88EF53811AA29DCC00832A03 /* PNLineChartData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNLineChartData.swift; sourceTree = "<group>"; };
+		88EF53821AA29DCC00832A03 /* PNValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNValue.swift; sourceTree = "<group>"; };
+		88EF53831AA29DCC00832A03 /* PNChartConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNChartConfig.swift; sourceTree = "<group>"; };
+		88EF53841AA29DCC00832A03 /* PNChartDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNChartDelegate.swift; sourceTree = "<group>"; };
+		88EF53851AA29DCC00832A03 /* view.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = view.swift; sourceTree = "<group>"; };
+		88EF53861AA29DCC00832A03 /* PNBarChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNBarChart.swift; sourceTree = "<group>"; };
+		88EF53901AA29F0F00832A03 /* APIRequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequestViewController.swift; sourceTree = "<group>"; };
+		88EF53921AA2A13200832A03 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88EF53501AA29D4000832A03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EF53681AA29D4000832A03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88EF534A1AA29D4000832A03 = {
+			isa = PBXGroup;
+			children = (
+				88EF537D1AA29DCC00832A03 /* PNBar.swift */,
+				88EF53921AA2A13200832A03 /* Utilities.swift */,
+				88EF537E1AA29DCC00832A03 /* PNChartSwift.h */,
+				88EF537F1AA29DCC00832A03 /* PNChartLabel.swift */,
+				88EF53801AA29DCC00832A03 /* PNLineChart.swift */,
+				88EF53811AA29DCC00832A03 /* PNLineChartData.swift */,
+				88EF53821AA29DCC00832A03 /* PNValue.swift */,
+				88EF53831AA29DCC00832A03 /* PNChartConfig.swift */,
+				88EF53841AA29DCC00832A03 /* PNChartDelegate.swift */,
+				88EF53851AA29DCC00832A03 /* view.swift */,
+				88EF53861AA29DCC00832A03 /* PNBarChart.swift */,
+				88EF53551AA29D4000832A03 /* Teacherview */,
+				88EF536E1AA29D4000832A03 /* TeacherviewTests */,
+				88EF53541AA29D4000832A03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88EF53541AA29D4000832A03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88EF53531AA29D4000832A03 /* Teacherview.app */,
+				88EF536B1AA29D4000832A03 /* TeacherviewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88EF53551AA29D4000832A03 /* Teacherview */ = {
+			isa = PBXGroup;
+			children = (
+				88EF53581AA29D4000832A03 /* AppDelegate.swift */,
+				88EF535D1AA29D4000832A03 /* ViewController.swift */,
+				88EF535F1AA29D4000832A03 /* Main.storyboard */,
+				88EF53621AA29D4000832A03 /* Images.xcassets */,
+				88EF53641AA29D4000832A03 /* LaunchScreen.xib */,
+				88EF535A1AA29D4000832A03 /* Teacherview.xcdatamodeld */,
+				88EF53561AA29D4000832A03 /* Supporting Files */,
+				88EF53901AA29F0F00832A03 /* APIRequestViewController.swift */,
+			);
+			path = Teacherview;
+			sourceTree = "<group>";
+		};
+		88EF53561AA29D4000832A03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88EF53571AA29D4000832A03 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88EF536E1AA29D4000832A03 /* TeacherviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				88EF53711AA29D4000832A03 /* TeacherviewTests.swift */,
+				88EF536F1AA29D4000832A03 /* Supporting Files */,
+			);
+			path = TeacherviewTests;
+			sourceTree = "<group>";
+		};
+		88EF536F1AA29D4000832A03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88EF53701AA29D4000832A03 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88EF53521AA29D4000832A03 /* Teacherview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88EF53751AA29D4000832A03 /* Build configuration list for PBXNativeTarget "Teacherview" */;
+			buildPhases = (
+				88EF534F1AA29D4000832A03 /* Sources */,
+				88EF53501AA29D4000832A03 /* Frameworks */,
+				88EF53511AA29D4000832A03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Teacherview;
+			productName = Teacherview;
+			productReference = 88EF53531AA29D4000832A03 /* Teacherview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88EF536A1AA29D4000832A03 /* TeacherviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88EF53781AA29D4000832A03 /* Build configuration list for PBXNativeTarget "TeacherviewTests" */;
+			buildPhases = (
+				88EF53671AA29D4000832A03 /* Sources */,
+				88EF53681AA29D4000832A03 /* Frameworks */,
+				88EF53691AA29D4000832A03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88EF536D1AA29D4000832A03 /* PBXTargetDependency */,
+			);
+			name = TeacherviewTests;
+			productName = TeacherviewTests;
+			productReference = 88EF536B1AA29D4000832A03 /* TeacherviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88EF534B1AA29D4000832A03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = SimpliLearn;
+				TargetAttributes = {
+					88EF53521AA29D4000832A03 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					88EF536A1AA29D4000832A03 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 88EF53521AA29D4000832A03;
+					};
+				};
+			};
+			buildConfigurationList = 88EF534E1AA29D4000832A03 /* Build configuration list for PBXProject "Teacherview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88EF534A1AA29D4000832A03;
+			productRefGroup = 88EF53541AA29D4000832A03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88EF53521AA29D4000832A03 /* Teacherview */,
+				88EF536A1AA29D4000832A03 /* TeacherviewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88EF53511AA29D4000832A03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88EF53611AA29D4000832A03 /* Main.storyboard in Resources */,
+				88EF53661AA29D4000832A03 /* LaunchScreen.xib in Resources */,
+				88EF53631AA29D4000832A03 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EF53691AA29D4000832A03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88EF534F1AA29D4000832A03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88EF535E1AA29D4000832A03 /* ViewController.swift in Sources */,
+				88EF538C1AA29DCC00832A03 /* PNChartConfig.swift in Sources */,
+				88EF53931AA2A13200832A03 /* Utilities.swift in Sources */,
+				88EF538A1AA29DCC00832A03 /* PNLineChartData.swift in Sources */,
+				88EF538E1AA29DCC00832A03 /* view.swift in Sources */,
+				88EF53591AA29D4000832A03 /* AppDelegate.swift in Sources */,
+				88EF53871AA29DCC00832A03 /* PNBar.swift in Sources */,
+				88EF538D1AA29DCC00832A03 /* PNChartDelegate.swift in Sources */,
+				88EF535C1AA29D4000832A03 /* Teacherview.xcdatamodeld in Sources */,
+				88EF53911AA29F0F00832A03 /* APIRequestViewController.swift in Sources */,
+				88EF53891AA29DCC00832A03 /* PNLineChart.swift in Sources */,
+				88EF538B1AA29DCC00832A03 /* PNValue.swift in Sources */,
+				88EF53881AA29DCC00832A03 /* PNChartLabel.swift in Sources */,
+				88EF538F1AA29DCC00832A03 /* PNBarChart.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EF53671AA29D4000832A03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88EF53721AA29D4000832A03 /* TeacherviewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88EF536D1AA29D4000832A03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88EF53521AA29D4000832A03 /* Teacherview */;
+			targetProxy = 88EF536C1AA29D4000832A03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88EF535F1AA29D4000832A03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88EF53601AA29D4000832A03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88EF53641AA29D4000832A03 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88EF53651AA29D4000832A03 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88EF53731AA29D4000832A03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88EF53741AA29D4000832A03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88EF53761AA29D4000832A03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Teacherview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		88EF53771AA29D4000832A03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Teacherview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		88EF53791AA29D4000832A03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TeacherviewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Teacherview.app/Teacherview";
+			};
+			name = Debug;
+		};
+		88EF537A1AA29D4000832A03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TeacherviewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Teacherview.app/Teacherview";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88EF534E1AA29D4000832A03 /* Build configuration list for PBXProject "Teacherview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88EF53731AA29D4000832A03 /* Debug */,
+				88EF53741AA29D4000832A03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88EF53751AA29D4000832A03 /* Build configuration list for PBXNativeTarget "Teacherview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88EF53761AA29D4000832A03 /* Debug */,
+				88EF53771AA29D4000832A03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		88EF53781AA29D4000832A03 /* Build configuration list for PBXNativeTarget "TeacherviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88EF53791AA29D4000832A03 /* Debug */,
+				88EF537A1AA29D4000832A03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		88EF535A1AA29D4000832A03 /* Teacherview.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				88EF535B1AA29D4000832A03 /* Teacherview.xcdatamodel */,
+			);
+			currentVersion = 88EF535B1AA29D4000832A03 /* Teacherview.xcdatamodel */;
+			path = Teacherview.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 88EF534B1AA29D4000832A03 /* Project object */;
+}

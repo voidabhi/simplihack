@@ -1,0 +1,896 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88103E1D1AA1ABFC0081B104 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88103E1C1AA1ABFC0081B104 /* AppDelegate.swift */; };
+		88103E201AA1ABFC0081B104 /* SimpliHack.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88103E1E1AA1ABFC0081B104 /* SimpliHack.xcdatamodeld */; };
+		88103E221AA1ABFC0081B104 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88103E211AA1ABFC0081B104 /* ViewController.swift */; };
+		88103E251AA1ABFC0081B104 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88103E231AA1ABFC0081B104 /* Main.storyboard */; };
+		88103E271AA1ABFC0081B104 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88103E261AA1ABFC0081B104 /* Images.xcassets */; };
+		88103E2A1AA1ABFC0081B104 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88103E281AA1ABFC0081B104 /* LaunchScreen.xib */; };
+		88103E361AA1ABFC0081B104 /* SimpliHackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88103E351AA1ABFC0081B104 /* SimpliHackTests.swift */; };
+		88103E431AA1AEEB0081B104 /* QuestionPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88103E421AA1AEEB0081B104 /* QuestionPageViewController.swift */; };
+		88103E451AA1C6C00081B104 /* BlindPeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88103E441AA1C6C00081B104 /* BlindPeopleViewController.swift */; };
+		88103E471AA1C6EE0081B104 /* LoginViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88103E461AA1C6EE0081B104 /* LoginViewViewController.swift */; };
+		88103E491AA1C8020081B104 /* CallingServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88103E481AA1C8020081B104 /* CallingServer.swift */; };
+		88103E4C1AA1C8E40081B104 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88103E4B1AA1C8E40081B104 /* Utilities.swift */; };
+		88103E501AA1ED3C0081B104 /* CoursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88103E4F1AA1ED3B0081B104 /* CoursesViewController.swift */; };
+		88103E521AA1ED740081B104 /* CoursesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88103E511AA1ED740081B104 /* CoursesTableViewCell.swift */; };
+		88103E551AA1F0B00081B104 /* PNBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88103E531AA1F0B00081B104 /* PNBar.swift */; };
+		88103E561AA1F0B00081B104 /* PNBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88103E541AA1F0B00081B104 /* PNBarChart.swift */; };
+		88103E581AA1F0D30081B104 /* HealthDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88103E571AA1F0D30081B104 /* HealthDataViewController.swift */; };
+		88103E611AA1F1E80081B104 /* PNChartLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88103E5A1AA1F1E80081B104 /* PNChartLabel.swift */; };
+		88103E621AA1F1E80081B104 /* PNLineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88103E5B1AA1F1E80081B104 /* PNLineChart.swift */; };
+		88103E631AA1F1E80081B104 /* PNLineChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88103E5C1AA1F1E80081B104 /* PNLineChartData.swift */; };
+		88103E641AA1F1E80081B104 /* PNValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88103E5D1AA1F1E80081B104 /* PNValue.swift */; };
+		88103E651AA1F1E80081B104 /* PNChartConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88103E5E1AA1F1E80081B104 /* PNChartConfig.swift */; };
+		88103E661AA1F1E80081B104 /* PNChartDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88103E5F1AA1F1E80081B104 /* PNChartDelegate.swift */; };
+		88103E671AA1F1E80081B104 /* view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88103E601AA1F1E80081B104 /* view.swift */; };
+		88103E721AA1F2880081B104 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88103E6F1AA1F2630081B104 /* QuartzCore.framework */; };
+		88103E731AA1F2900081B104 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88103E691AA1F24C0081B104 /* Foundation.framework */; };
+		88103E741AA1F2950081B104 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88103E6B1AA1F2520081B104 /* UIKit.framework */; };
+		88103E751AA1F29D0081B104 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88103E4D1AA1CE9E0081B104 /* AVFoundation.framework */; };
+		88103E761AA1F2A60081B104 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88103E6D1AA1F2580081B104 /* CoreGraphics.framework */; };
+		88103E7F1AA1FF2A0081B104 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88103E7E1AA1FF2A0081B104 /* HealthKit.framework */; };
+		88103E821AA200350081B104 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88103E811AA200350081B104 /* HealthManager.swift */; };
+		88103E841AA20EBE0081B104 /* CourseDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88103E831AA20EBE0081B104 /* CourseDescriptionViewController.swift */; };
+		88103E861AA211C20081B104 /* ForQuestionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88103E851AA211C20081B104 /* ForQuestionsTableViewCell.swift */; };
+		88103E881AA235E50081B104 /* SecondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88103E871AA235E40081B104 /* SecondTableViewCell.swift */; };
+		88103E8A1AA23D170081B104 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88103E891AA23D170081B104 /* SettingsViewController.swift */; };
+		88EF53281AA27DFA00832A03 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88EF53271AA27DFA00832A03 /* WatchKit.framework */; };
+		88EF532E1AA27DFA00832A03 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EF532D1AA27DFA00832A03 /* InterfaceController.swift */; };
+		88EF53301AA27DFA00832A03 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EF532F1AA27DFA00832A03 /* NotificationController.swift */; };
+		88EF53321AA27DFA00832A03 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88EF53311AA27DFA00832A03 /* Images.xcassets */; };
+		88EF53361AA27DFB00832A03 /* SimpliHack Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = 88EF53351AA27DFB00832A03 /* SimpliHack Watch App.app */; };
+		88EF533D1AA27DFB00832A03 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EF533C1AA27DFB00832A03 /* Interface.storyboard */; };
+		88EF533F1AA27DFB00832A03 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88EF533E1AA27DFB00832A03 /* Images.xcassets */; };
+		88EF53421AA27DFB00832A03 /* SimpliHack WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 88EF53251AA27DFA00832A03 /* SimpliHack WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88103E301AA1ABFC0081B104 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88103E0F1AA1ABFC0081B104 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88103E161AA1ABFC0081B104;
+			remoteInfo = SimpliHack;
+		};
+		88EF53371AA27DFB00832A03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88103E0F1AA1ABFC0081B104 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88EF53341AA27DFB00832A03;
+			remoteInfo = "SimpliHack Watch App";
+		};
+		88EF53401AA27DFB00832A03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88103E0F1AA1ABFC0081B104 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88EF53241AA27DFA00832A03;
+			remoteInfo = "SimpliHack WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		88EF53491AA27DFB00832A03 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				88EF53421AA27DFB00832A03 /* SimpliHack WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		88103E171AA1ABFC0081B104 /* SimpliHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpliHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88103E1B1AA1ABFC0081B104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88103E1C1AA1ABFC0081B104 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88103E1F1AA1ABFC0081B104 /* SimpliHack.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpliHack.xcdatamodel; sourceTree = "<group>"; };
+		88103E211AA1ABFC0081B104 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88103E241AA1ABFC0081B104 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88103E261AA1ABFC0081B104 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		88103E291AA1ABFC0081B104 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		88103E2F1AA1ABFC0081B104 /* SimpliHackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpliHackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88103E341AA1ABFC0081B104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88103E351AA1ABFC0081B104 /* SimpliHackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpliHackTests.swift; sourceTree = "<group>"; };
+		88103E421AA1AEEB0081B104 /* QuestionPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionPageViewController.swift; sourceTree = "<group>"; };
+		88103E441AA1C6C00081B104 /* BlindPeopleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlindPeopleViewController.swift; sourceTree = "<group>"; };
+		88103E461AA1C6EE0081B104 /* LoginViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewViewController.swift; sourceTree = "<group>"; };
+		88103E481AA1C8020081B104 /* CallingServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallingServer.swift; sourceTree = "<group>"; };
+		88103E4B1AA1C8E40081B104 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		88103E4D1AA1CE9E0081B104 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		88103E4F1AA1ED3B0081B104 /* CoursesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoursesViewController.swift; sourceTree = "<group>"; };
+		88103E511AA1ED740081B104 /* CoursesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoursesTableViewCell.swift; sourceTree = "<group>"; };
+		88103E531AA1F0B00081B104 /* PNBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNBar.swift; sourceTree = "<group>"; };
+		88103E541AA1F0B00081B104 /* PNBarChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNBarChart.swift; sourceTree = "<group>"; };
+		88103E571AA1F0D30081B104 /* HealthDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthDataViewController.swift; sourceTree = "<group>"; };
+		88103E591AA1F1E80081B104 /* PNChartSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNChartSwift.h; sourceTree = "<group>"; };
+		88103E5A1AA1F1E80081B104 /* PNChartLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNChartLabel.swift; sourceTree = "<group>"; };
+		88103E5B1AA1F1E80081B104 /* PNLineChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNLineChart.swift; sourceTree = "<group>"; };
+		88103E5C1AA1F1E80081B104 /* PNLineChartData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNLineChartData.swift; sourceTree = "<group>"; };
+		88103E5D1AA1F1E80081B104 /* PNValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNValue.swift; sourceTree = "<group>"; };
+		88103E5E1AA1F1E80081B104 /* PNChartConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNChartConfig.swift; sourceTree = "<group>"; };
+		88103E5F1AA1F1E80081B104 /* PNChartDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNChartDelegate.swift; sourceTree = "<group>"; };
+		88103E601AA1F1E80081B104 /* view.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = view.swift; sourceTree = "<group>"; };
+		88103E691AA1F24C0081B104 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		88103E6B1AA1F2520081B104 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		88103E6D1AA1F2580081B104 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		88103E6F1AA1F2630081B104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		88103E771AA1FC250081B104 /* SimpliHack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpliHack-Bridging-Header.h"; sourceTree = "<group>"; };
+		88103E7E1AA1FF2A0081B104 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		88103E801AA1FFF00081B104 /* SimpliHack.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SimpliHack.entitlements; sourceTree = "<group>"; };
+		88103E811AA200350081B104 /* HealthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
+		88103E831AA20EBE0081B104 /* CourseDescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseDescriptionViewController.swift; sourceTree = "<group>"; };
+		88103E851AA211C20081B104 /* ForQuestionsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForQuestionsTableViewCell.swift; sourceTree = "<group>"; };
+		88103E871AA235E40081B104 /* SecondTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTableViewCell.swift; sourceTree = "<group>"; };
+		88103E891AA23D170081B104 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		88EF53251AA27DFA00832A03 /* SimpliHack WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SimpliHack WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88EF53271AA27DFA00832A03 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
+		88EF532B1AA27DFA00832A03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88EF532C1AA27DFA00832A03 /* PushNotificationPayload.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PushNotificationPayload.json; sourceTree = "<group>"; };
+		88EF532D1AA27DFA00832A03 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		88EF532F1AA27DFA00832A03 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		88EF53311AA27DFA00832A03 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		88EF53351AA27DFB00832A03 /* SimpliHack Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SimpliHack Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88EF533B1AA27DFB00832A03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88EF533C1AA27DFB00832A03 /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		88EF533E1AA27DFB00832A03 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88103E141AA1ABFC0081B104 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88103E7F1AA1FF2A0081B104 /* HealthKit.framework in Frameworks */,
+				88103E761AA1F2A60081B104 /* CoreGraphics.framework in Frameworks */,
+				88103E751AA1F29D0081B104 /* AVFoundation.framework in Frameworks */,
+				88103E741AA1F2950081B104 /* UIKit.framework in Frameworks */,
+				88103E731AA1F2900081B104 /* Foundation.framework in Frameworks */,
+				88103E721AA1F2880081B104 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88103E2C1AA1ABFC0081B104 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EF53221AA27DFA00832A03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88EF53281AA27DFA00832A03 /* WatchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88103E0E1AA1ABFC0081B104 = {
+			isa = PBXGroup;
+			children = (
+				88103E191AA1ABFC0081B104 /* SimpliHack */,
+				88103E321AA1ABFC0081B104 /* SimpliHackTests */,
+				88EF53291AA27DFA00832A03 /* SimpliHack WatchKit Extension */,
+				88EF53391AA27DFB00832A03 /* SimpliHack Watch App */,
+				88EF53261AA27DFA00832A03 /* Frameworks */,
+				88103E181AA1ABFC0081B104 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88103E181AA1ABFC0081B104 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88103E171AA1ABFC0081B104 /* SimpliHack.app */,
+				88103E2F1AA1ABFC0081B104 /* SimpliHackTests.xctest */,
+				88EF53251AA27DFA00832A03 /* SimpliHack WatchKit Extension.appex */,
+				88EF53351AA27DFB00832A03 /* SimpliHack Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88103E191AA1ABFC0081B104 /* SimpliHack */ = {
+			isa = PBXGroup;
+			children = (
+				88103E801AA1FFF00081B104 /* SimpliHack.entitlements */,
+				88103E1C1AA1ABFC0081B104 /* AppDelegate.swift */,
+				88103E711AA1F2680081B104 /* Frameworks */,
+				88103E3F1AA1AEC00081B104 /* iPhone */,
+				88103E411AA1AECB0081B104 /* Story Board */,
+				88103E261AA1ABFC0081B104 /* Images.xcassets */,
+				88103E281AA1ABFC0081B104 /* LaunchScreen.xib */,
+				88103E1E1AA1ABFC0081B104 /* SimpliHack.xcdatamodeld */,
+				88103E1A1AA1ABFC0081B104 /* Supporting Files */,
+				88103E771AA1FC250081B104 /* SimpliHack-Bridging-Header.h */,
+			);
+			path = SimpliHack;
+			sourceTree = "<group>";
+		};
+		88103E1A1AA1ABFC0081B104 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88103E1B1AA1ABFC0081B104 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88103E321AA1ABFC0081B104 /* SimpliHackTests */ = {
+			isa = PBXGroup;
+			children = (
+				88103E351AA1ABFC0081B104 /* SimpliHackTests.swift */,
+				88103E331AA1ABFC0081B104 /* Supporting Files */,
+			);
+			path = SimpliHackTests;
+			sourceTree = "<group>";
+		};
+		88103E331AA1ABFC0081B104 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88103E341AA1ABFC0081B104 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88103E3F1AA1AEC00081B104 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				88103E4A1AA1C8230081B104 /* Model */,
+				88103E401AA1AEC60081B104 /* Controller */,
+				88103E511AA1ED740081B104 /* CoursesTableViewCell.swift */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		88103E401AA1AEC60081B104 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				88103E211AA1ABFC0081B104 /* ViewController.swift */,
+				88103E421AA1AEEB0081B104 /* QuestionPageViewController.swift */,
+				88103E441AA1C6C00081B104 /* BlindPeopleViewController.swift */,
+				88103E461AA1C6EE0081B104 /* LoginViewViewController.swift */,
+				88103E4F1AA1ED3B0081B104 /* CoursesViewController.swift */,
+				88103E571AA1F0D30081B104 /* HealthDataViewController.swift */,
+				88103E831AA20EBE0081B104 /* CourseDescriptionViewController.swift */,
+				88103E851AA211C20081B104 /* ForQuestionsTableViewCell.swift */,
+				88103E871AA235E40081B104 /* SecondTableViewCell.swift */,
+				88103E891AA23D170081B104 /* SettingsViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		88103E411AA1AECB0081B104 /* Story Board */ = {
+			isa = PBXGroup;
+			children = (
+				88103E231AA1ABFC0081B104 /* Main.storyboard */,
+			);
+			name = "Story Board";
+			sourceTree = "<group>";
+		};
+		88103E4A1AA1C8230081B104 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				88103E811AA200350081B104 /* HealthManager.swift */,
+				88103E681AA1F1F80081B104 /* ChartModel */,
+				88103E4B1AA1C8E40081B104 /* Utilities.swift */,
+				88103E481AA1C8020081B104 /* CallingServer.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		88103E681AA1F1F80081B104 /* ChartModel */ = {
+			isa = PBXGroup;
+			children = (
+				88103E531AA1F0B00081B104 /* PNBar.swift */,
+				88103E591AA1F1E80081B104 /* PNChartSwift.h */,
+				88103E5A1AA1F1E80081B104 /* PNChartLabel.swift */,
+				88103E5B1AA1F1E80081B104 /* PNLineChart.swift */,
+				88103E5C1AA1F1E80081B104 /* PNLineChartData.swift */,
+				88103E5D1AA1F1E80081B104 /* PNValue.swift */,
+				88103E5E1AA1F1E80081B104 /* PNChartConfig.swift */,
+				88103E5F1AA1F1E80081B104 /* PNChartDelegate.swift */,
+				88103E601AA1F1E80081B104 /* view.swift */,
+				88103E541AA1F0B00081B104 /* PNBarChart.swift */,
+			);
+			name = ChartModel;
+			sourceTree = "<group>";
+		};
+		88103E711AA1F2680081B104 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88103E7E1AA1FF2A0081B104 /* HealthKit.framework */,
+				88103E6F1AA1F2630081B104 /* QuartzCore.framework */,
+				88103E6D1AA1F2580081B104 /* CoreGraphics.framework */,
+				88103E6B1AA1F2520081B104 /* UIKit.framework */,
+				88103E691AA1F24C0081B104 /* Foundation.framework */,
+				88103E4D1AA1CE9E0081B104 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		88EF53261AA27DFA00832A03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88EF53271AA27DFA00832A03 /* WatchKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88EF53291AA27DFA00832A03 /* SimpliHack WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				88EF532D1AA27DFA00832A03 /* InterfaceController.swift */,
+				88EF532F1AA27DFA00832A03 /* NotificationController.swift */,
+				88EF53311AA27DFA00832A03 /* Images.xcassets */,
+				88EF532A1AA27DFA00832A03 /* Supporting Files */,
+			);
+			path = "SimpliHack WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		88EF532A1AA27DFA00832A03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88EF532B1AA27DFA00832A03 /* Info.plist */,
+				88EF532C1AA27DFA00832A03 /* PushNotificationPayload.json */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88EF53391AA27DFB00832A03 /* SimpliHack Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				88EF533C1AA27DFB00832A03 /* Interface.storyboard */,
+				88EF533E1AA27DFB00832A03 /* Images.xcassets */,
+				88EF533A1AA27DFB00832A03 /* Supporting Files */,
+			);
+			path = "SimpliHack Watch App";
+			sourceTree = "<group>";
+		};
+		88EF533A1AA27DFB00832A03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88EF533B1AA27DFB00832A03 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88103E161AA1ABFC0081B104 /* SimpliHack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88103E391AA1ABFC0081B104 /* Build configuration list for PBXNativeTarget "SimpliHack" */;
+			buildPhases = (
+				88103E131AA1ABFC0081B104 /* Sources */,
+				88103E141AA1ABFC0081B104 /* Frameworks */,
+				88103E151AA1ABFC0081B104 /* Resources */,
+				88EF53491AA27DFB00832A03 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88EF53411AA27DFB00832A03 /* PBXTargetDependency */,
+			);
+			name = SimpliHack;
+			productName = SimpliHack;
+			productReference = 88103E171AA1ABFC0081B104 /* SimpliHack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88103E2E1AA1ABFC0081B104 /* SimpliHackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88103E3C1AA1ABFC0081B104 /* Build configuration list for PBXNativeTarget "SimpliHackTests" */;
+			buildPhases = (
+				88103E2B1AA1ABFC0081B104 /* Sources */,
+				88103E2C1AA1ABFC0081B104 /* Frameworks */,
+				88103E2D1AA1ABFC0081B104 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88103E311AA1ABFC0081B104 /* PBXTargetDependency */,
+			);
+			name = SimpliHackTests;
+			productName = SimpliHackTests;
+			productReference = 88103E2F1AA1ABFC0081B104 /* SimpliHackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88EF53241AA27DFA00832A03 /* SimpliHack WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88EF53481AA27DFB00832A03 /* Build configuration list for PBXNativeTarget "SimpliHack WatchKit Extension" */;
+			buildPhases = (
+				88EF53211AA27DFA00832A03 /* Sources */,
+				88EF53221AA27DFA00832A03 /* Frameworks */,
+				88EF53231AA27DFA00832A03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88EF53381AA27DFB00832A03 /* PBXTargetDependency */,
+			);
+			name = "SimpliHack WatchKit Extension";
+			productName = "SimpliHack WatchKit Extension";
+			productReference = 88EF53251AA27DFA00832A03 /* SimpliHack WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		88EF53341AA27DFB00832A03 /* SimpliHack Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88EF53471AA27DFB00832A03 /* Build configuration list for PBXNativeTarget "SimpliHack Watch App" */;
+			buildPhases = (
+				88EF53331AA27DFB00832A03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SimpliHack Watch App";
+			productName = "SimpliHack Watch App";
+			productReference = 88EF53351AA27DFB00832A03 /* SimpliHack Watch App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88103E0F1AA1ABFC0081B104 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = SimpliLearn;
+				TargetAttributes = {
+					88103E161AA1ABFC0081B104 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = DF3CVP242W;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					88103E2E1AA1ABFC0081B104 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 88103E161AA1ABFC0081B104;
+					};
+					88EF53241AA27DFA00832A03 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = DF3CVP242W;
+					};
+					88EF53341AA27DFB00832A03 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 88103E121AA1ABFC0081B104 /* Build configuration list for PBXProject "SimpliHack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88103E0E1AA1ABFC0081B104;
+			productRefGroup = 88103E181AA1ABFC0081B104 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88103E161AA1ABFC0081B104 /* SimpliHack */,
+				88103E2E1AA1ABFC0081B104 /* SimpliHackTests */,
+				88EF53241AA27DFA00832A03 /* SimpliHack WatchKit Extension */,
+				88EF53341AA27DFB00832A03 /* SimpliHack Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88103E151AA1ABFC0081B104 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88103E251AA1ABFC0081B104 /* Main.storyboard in Resources */,
+				88103E2A1AA1ABFC0081B104 /* LaunchScreen.xib in Resources */,
+				88103E271AA1ABFC0081B104 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88103E2D1AA1ABFC0081B104 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EF53231AA27DFA00832A03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88EF53361AA27DFB00832A03 /* SimpliHack Watch App.app in Resources */,
+				88EF53321AA27DFA00832A03 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EF53331AA27DFB00832A03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88EF533D1AA27DFB00832A03 /* Interface.storyboard in Resources */,
+				88EF533F1AA27DFB00832A03 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88103E131AA1ABFC0081B104 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88103E221AA1ABFC0081B104 /* ViewController.swift in Sources */,
+				88103E551AA1F0B00081B104 /* PNBar.swift in Sources */,
+				88103E631AA1F1E80081B104 /* PNLineChartData.swift in Sources */,
+				88103E451AA1C6C00081B104 /* BlindPeopleViewController.swift in Sources */,
+				88103E581AA1F0D30081B104 /* HealthDataViewController.swift in Sources */,
+				88103E201AA1ABFC0081B104 /* SimpliHack.xcdatamodeld in Sources */,
+				88103E561AA1F0B00081B104 /* PNBarChart.swift in Sources */,
+				88103E431AA1AEEB0081B104 /* QuestionPageViewController.swift in Sources */,
+				88103E8A1AA23D170081B104 /* SettingsViewController.swift in Sources */,
+				88103E671AA1F1E80081B104 /* view.swift in Sources */,
+				88103E1D1AA1ABFC0081B104 /* AppDelegate.swift in Sources */,
+				88103E491AA1C8020081B104 /* CallingServer.swift in Sources */,
+				88103E881AA235E50081B104 /* SecondTableViewCell.swift in Sources */,
+				88103E4C1AA1C8E40081B104 /* Utilities.swift in Sources */,
+				88103E841AA20EBE0081B104 /* CourseDescriptionViewController.swift in Sources */,
+				88103E661AA1F1E80081B104 /* PNChartDelegate.swift in Sources */,
+				88103E821AA200350081B104 /* HealthManager.swift in Sources */,
+				88103E471AA1C6EE0081B104 /* LoginViewViewController.swift in Sources */,
+				88103E521AA1ED740081B104 /* CoursesTableViewCell.swift in Sources */,
+				88103E641AA1F1E80081B104 /* PNValue.swift in Sources */,
+				88103E621AA1F1E80081B104 /* PNLineChart.swift in Sources */,
+				88103E501AA1ED3C0081B104 /* CoursesViewController.swift in Sources */,
+				88103E861AA211C20081B104 /* ForQuestionsTableViewCell.swift in Sources */,
+				88103E651AA1F1E80081B104 /* PNChartConfig.swift in Sources */,
+				88103E611AA1F1E80081B104 /* PNChartLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88103E2B1AA1ABFC0081B104 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88103E361AA1ABFC0081B104 /* SimpliHackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EF53211AA27DFA00832A03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88EF53301AA27DFA00832A03 /* NotificationController.swift in Sources */,
+				88EF532E1AA27DFA00832A03 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88103E311AA1ABFC0081B104 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88103E161AA1ABFC0081B104 /* SimpliHack */;
+			targetProxy = 88103E301AA1ABFC0081B104 /* PBXContainerItemProxy */;
+		};
+		88EF53381AA27DFB00832A03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88EF53341AA27DFB00832A03 /* SimpliHack Watch App */;
+			targetProxy = 88EF53371AA27DFB00832A03 /* PBXContainerItemProxy */;
+		};
+		88EF53411AA27DFB00832A03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88EF53241AA27DFA00832A03 /* SimpliHack WatchKit Extension */;
+			targetProxy = 88EF53401AA27DFB00832A03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88103E231AA1ABFC0081B104 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88103E241AA1ABFC0081B104 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88103E281AA1ABFC0081B104 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88103E291AA1ABFC0081B104 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88103E371AA1ABFC0081B104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88103E381AA1ABFC0081B104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88103E3A1AA1ABFC0081B104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SimpliHack/SimpliHack.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = SimpliHack/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SimpliHack/SimpliHack-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88103E3B1AA1ABFC0081B104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SimpliHack/SimpliHack.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = SimpliHack/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SimpliHack/SimpliHack-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		88103E3D1AA1ABFC0081B104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpliHackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpliHack.app/SimpliHack";
+			};
+			name = Debug;
+		};
+		88103E3E1AA1ABFC0081B104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpliHackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpliHack.app/SimpliHack";
+			};
+			name = Release;
+		};
+		88EF53431AA27DFB00832A03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SimpliHack WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		88EF53441AA27DFB00832A03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "SimpliHack WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		88EF53451AA27DFB00832A03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = SimpliHack_WatchKit_Extension;
+				INFOPLIST_FILE = "SimpliHack Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		88EF53461AA27DFB00832A03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = SimpliHack_WatchKit_Extension;
+				INFOPLIST_FILE = "SimpliHack Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88103E121AA1ABFC0081B104 /* Build configuration list for PBXProject "SimpliHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88103E371AA1ABFC0081B104 /* Debug */,
+				88103E381AA1ABFC0081B104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88103E391AA1ABFC0081B104 /* Build configuration list for PBXNativeTarget "SimpliHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88103E3A1AA1ABFC0081B104 /* Debug */,
+				88103E3B1AA1ABFC0081B104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88103E3C1AA1ABFC0081B104 /* Build configuration list for PBXNativeTarget "SimpliHackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88103E3D1AA1ABFC0081B104 /* Debug */,
+				88103E3E1AA1ABFC0081B104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88EF53471AA27DFB00832A03 /* Build configuration list for PBXNativeTarget "SimpliHack Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88EF53451AA27DFB00832A03 /* Debug */,
+				88EF53461AA27DFB00832A03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88EF53481AA27DFB00832A03 /* Build configuration list for PBXNativeTarget "SimpliHack WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88EF53431AA27DFB00832A03 /* Debug */,
+				88EF53441AA27DFB00832A03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		88103E1E1AA1ABFC0081B104 /* SimpliHack.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				88103E1F1AA1ABFC0081B104 /* SimpliHack.xcdatamodel */,
+			);
+			currentVersion = 88103E1F1AA1ABFC0081B104 /* SimpliHack.xcdatamodel */;
+			path = SimpliHack.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 88103E0F1AA1ABFC0081B104 /* Project object */;
+}
